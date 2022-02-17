@@ -220,10 +220,10 @@ h1 {
     header {
         overflow-x: clip;
         overflow-y: visible;
-        background: url("/images/bg-intro-desktop.svg");
+        background: url("./images/bg-intro-desktop.svg");
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: 0%;
+        background-position: 180%;
     }
 
     .mockups {
