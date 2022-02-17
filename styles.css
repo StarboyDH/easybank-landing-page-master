@@ -178,8 +178,7 @@ li > div {
 
 /* HEADER */
 header {
-    overflow-x: clip;
-    overflow-y: visible;
+    overflow: hidden;
     background: url("./images/bg-intro-mobile.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -223,6 +222,8 @@ h1 {
 
 @media screen and (min-width:1024px) {
     header {
+        overflow-x: clip;
+        overflow-y: visible;
         background: url("./images/bg-intro-desktop.svg");
         background-repeat: no-repeat;
         background-size: auto;
