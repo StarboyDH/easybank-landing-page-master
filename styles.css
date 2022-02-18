@@ -25,7 +25,7 @@ a {
 }
 
 .request-btn {
-    padding: .7rem 1.5rem;
+    padding: .8rem 1.7rem;
     border: 0;
     border-radius: 30px;
     background: linear-gradient(
@@ -36,7 +36,7 @@ a {
         hsl(192, 70%, 51%)
         );
     background-size: 300% 100%;
-    font-size: 1rem;
+    font-size: .8rem;
     color: white;
     cursor: pointer;
     transition: 
@@ -123,7 +123,7 @@ li > div {
 @media screen and (min-width:1024px) {
     nav {
         width: 100%;
-        padding: 1rem 7.5rem;
+        padding: 1rem 8rem;
         position: absolute;
         display: flex;
         align-items: center;
@@ -141,6 +141,7 @@ li > div {
     }
 
     .nav-menu > li {
+        font-size: .9em;
         color: hsl(233, 8%, 62%);
     }
 
@@ -180,7 +181,7 @@ li > div {
 /* HEADER */
 header {
     overflow: hidden;
-    background: hsl(0, 0%, 99%) url("./images/bg-intro-mobile.svg");
+    background: url("./images/bg-intro-mobile.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
@@ -225,7 +226,7 @@ h1 {
     header {
         overflow-x: clip;
         overflow-y: visible;
-        background: url("./images/bg-intro-desktop.svg");
+        background: hsl(0, 0%, 98%) url("./images/bg-intro-desktop.svg");
         background-repeat: no-repeat;
         background-size: auto;
         background-position: 35rem -12rem;
@@ -233,22 +234,22 @@ h1 {
 
     .mockups {
         margin-bottom: -18%;
-        transform: translate(100%, -10%);
+        transform: translate(100%, -5%);
     }
 
     .header-container {
-        width: 30%;
+        width: 35%;
         height: fit-content;
         padding: 0;
         position: absolute;
-        top: 45%;
-        left: 23%;
+        top: 50%;
+        left: 27%;
         transform: translate(-50%, -50%);
         align-items: flex-start;
     }
 
     h1 {
-        font-size: 3.2rem;
+        font-size: 3.4rem;
         text-align: left;
     }
 
@@ -308,7 +309,7 @@ main {
 
 @media screen and (min-width:1024px) {
     main {
-        padding: 6rem 7.5rem;
+        padding: 6rem 8rem;
         display: grid;
         grid-template-areas: 
             "sec-title sec-title sec-title sec-title"
@@ -392,7 +393,7 @@ main {
 
 @media screen and (min-width:1024px) {
     .articals-section {
-        padding: 6rem 7.5rem;
+        padding: 6rem 8rem;
         display: grid;
         grid-template-areas: 
             "sec-title sec-title sec-title sec-title"
@@ -442,7 +443,7 @@ footer {
 
 @media screen and (min-width:1024px) {
     footer {
-        padding: 2rem 7.5rem;
+        padding: 2rem 8rem;
         display: grid;
         grid-template-areas: 
             "logo links button"
