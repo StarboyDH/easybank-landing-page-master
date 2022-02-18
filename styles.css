@@ -123,6 +123,7 @@ li > div {
 @media screen and (min-width:1024px) {
     nav {
         width: 100%;
+        padding: 1rem 7.5rem;
         position: absolute;
         display: flex;
         align-items: center;
@@ -179,7 +180,7 @@ li > div {
 /* HEADER */
 header {
     overflow: hidden;
-    background: url("./images/bg-intro-mobile.svg");
+    background: hsl(0, 0%, 99%) url("./images/bg-intro-mobile.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
@@ -231,7 +232,7 @@ h1 {
     }
 
     .mockups {
-        margin-bottom: -15%;
+        margin-bottom: -18%;
         transform: translate(100%, -10%);
     }
 
@@ -240,14 +241,14 @@ h1 {
         height: fit-content;
         padding: 0;
         position: absolute;
-        top: 55%;
-        left: 22%;
+        top: 45%;
+        left: 23%;
         transform: translate(-50%, -50%);
         align-items: flex-start;
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 3.2rem;
         text-align: left;
     }
 
@@ -307,7 +308,7 @@ main {
 
 @media screen and (min-width:1024px) {
     main {
-        padding: 4rem 6rem;
+        padding: 6rem 7.5rem;
         display: grid;
         grid-template-areas: 
             "sec-title sec-title sec-title sec-title"
@@ -318,6 +319,7 @@ main {
     .section-title {
         grid-area: sec-title;
         text-align: left;
+        font-size: 2.5rem;
     }
 
     .main-describe {
@@ -328,7 +330,7 @@ main {
     }
 
     .features {
-        width: 90%;
+        width: 26ch;
         align-items: flex-start;
     }
 
@@ -390,7 +392,7 @@ main {
 
 @media screen and (min-width:1024px) {
     .articals-section {
-        padding: 3rem 6rem;
+        padding: 6rem 7.5rem;
         display: grid;
         grid-template-areas: 
             "sec-title sec-title sec-title sec-title"
@@ -440,7 +442,7 @@ footer {
 
 @media screen and (min-width:1024px) {
     footer {
-        padding: 3rem 6rem;
+        padding: 2rem 7.5rem;
         display: grid;
         grid-template-areas: 
             "logo links button"
@@ -456,7 +458,6 @@ footer {
         grid-area: links;
         display: grid;
         grid: auto auto auto / auto auto;
-        text-align: center;
     }
 
     .footer-items:hover {
